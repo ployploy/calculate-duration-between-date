@@ -1,9 +1,10 @@
-
 package main
-import(
-	"fmt"
+
+import (
+	"durationDate"
 )
 
-func main (){
-	fmt.Println("Hello")
+func main() {
+
+	durationDate.DurationBetweenDate()
 }
