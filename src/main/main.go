@@ -1,9 +1,10 @@
 package main
 
 import (
-	"fmt"
+	"durationDate"
 )
 
 func main() {
-	fmt.Println("Hello")
+
+	durationDate.DurationBetweenDate()
 }
