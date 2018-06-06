@@ -2,7 +2,7 @@ package durationdate
 
 import "testing"
 
-func Test_SetFullName_input_4_1_2018_should_be_Thursday_4_January_2018(t *testing.T) {
+func Test_Input_4_1_2018_SetFullNameDate_Should_Be_Thursday_4_January_2018(t *testing.T) {
 	day := 4
 	month := 1
 	year := 2018

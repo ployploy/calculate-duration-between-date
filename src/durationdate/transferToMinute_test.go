@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func Test_setMinute_input_152_Should_be_218880(t *testing.T) {
+func Test_Input_152_Transfer_To_Minute_Should_Be_218880(t *testing.T) {
 	day := 152
 	resultMinute := TransferToMinute(day)
 	expected := "218880"

@@ -4,9 +4,9 @@ import (
 	"testing"
 )
 
-func Test_setWeeks_input_152_Should_be_21Weeks(t *testing.T) {
+func Test_Input_152_Transfer_Day_To_Week_Should_Be_21_Weeks_5_Days(t *testing.T) {
 	day := 152
-	resultWeeks, dayover := setWeeks(day)
+	resultWeeks, dayover := TransferDayToWeek(day)
 	expected1 := "21"
 	expected2 := "5"
 	if resultWeeks != expected1 {

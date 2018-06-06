@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func Test_setSecond_input_152_Should_be_13132800(t *testing.T) {
+func Test_Input_152_Transfer_To_Second_Should_Be_13132800(t *testing.T) {
 	day := 152
 	resultSecond := TransferToSecond(day)
 	expected := "13132800"

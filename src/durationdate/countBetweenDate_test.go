@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func Test_setDay_input_startday_endday_Should_be_152(t *testing.T) {
+func Test_Input_Startday_Endday_Count_Between_Date_Should_Be_152(t *testing.T) {
 	startday := 4
 	startmonth := 1
 	startyear := 2018
