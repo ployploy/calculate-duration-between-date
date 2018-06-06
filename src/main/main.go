@@ -1,10 +1,12 @@
 package main
 
 import (
-	"durationDate"
+	"durationdate"
+	"net/http"
 )
 
 func main() {
-
-	durationDate.DurationBetweenDate()
+	http.HandleFunc("/getDayResult/date/calculatedate", durationdate.GetDayResult)
+	durationdate.DurationBetweenDate()
+	http.ListenAndServe(":9000", nil)
 }
