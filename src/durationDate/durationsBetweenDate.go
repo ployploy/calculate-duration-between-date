@@ -5,5 +5,6 @@ import (
 )
 
 func DurationBetweenDate() {
-	fmt.Println("2/12/2018")
+	fmt.Println("4/12/2018")
+
 }
