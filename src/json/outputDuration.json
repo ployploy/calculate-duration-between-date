@@ -1,0 +1,20 @@
+{
+    "daynamefrom" : "Thrusday",
+    "dayfrom" : "4",
+    "mounthnamefrom" : "January",
+    "yearfrom" : "2018",
+    "daynameto" : "Monday",
+    "dayto" : "4",
+    "mounthnameto" : "June",
+    "yearto" : "2018",
+    "resultday" : "152",
+    "resultmonth" : "5",
+    "resultoverday" : "1",
+    "seconds" : "13,132,800",
+    "minutes" : "218,880",
+    "hours" : "3,648",
+    "week" : "21",
+    "dayoverofweek" : "5",
+    "persen" : "41.46% of 2018",
+    "status" : "ok" 
+}
