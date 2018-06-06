@@ -55,3 +55,14 @@ func TransferToSecond(days int) string {
 	seconds := days * 24 * 60 * 60
 	return strconv.Itoa(seconds)
 }
+
+func TransferDayToWeek(days int) (string, string) {
+	weeks := days / 7
+	dayoverweeks := days % 7
+
+	week := strconv.Itoa(weeks)
+	dayover := strconv.Itoa(dayoverweeks)
+
+	return week, dayover
+
+}
