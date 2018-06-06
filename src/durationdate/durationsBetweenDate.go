@@ -44,3 +44,14 @@ func TransferToMinute(days int) string {
 	minutes := days * 24 * 60
 	return strconv.Itoa(minutes)
 }
+
+func TransferToHour(days int) string {
+	hours := days * 24
+	return strconv.Itoa(hours)
+
+}
+
+func TransferToSecond(days int) string {
+	seconds := days * 24 * 60 * 60
+	return strconv.Itoa(seconds)
+}
