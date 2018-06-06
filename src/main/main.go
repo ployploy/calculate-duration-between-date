@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/getDayResult/date/calculatedate", durationdate.GetDayResult)
-	durationdate.DurationBetweenDate()
+	http.HandleFunc("/getDayResult/date/calculatedate", durationdate.Duration)
 	http.ListenAndServe(":9000", nil)
 }
