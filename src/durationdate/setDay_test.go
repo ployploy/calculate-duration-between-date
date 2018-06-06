@@ -12,7 +12,7 @@ func Test_setDay_input_startday_endday_Should_be_152(t *testing.T) {
 	endmonth := 6
 	endyear := 2018
 
-	resultDay := SetDay(startday, startmonth, startyear, endday, endmonth, endyear)
+	resultDay := CountBetweenDate(startday, startmonth, startyear, endday, endmonth, endyear)
 
 	expected := "152"
 	if resultDay != expected {
