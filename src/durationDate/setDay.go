@@ -1,4 +1,4 @@
-package durationDate
+package durationdate
 
 import (
 	"strconv"
