@@ -66,3 +66,9 @@ func TransferDayToWeek(days int) (string, string) {
 	return week, dayover
 
 }
+
+func TransferToPercentOfYear(days int) string {
+	var ResultPercentOfYear float64 = (float64(days) / 365) * 100
+	percentofyear := strconv.FormatFloat(ResultPercentOfYear, 'f', 2, 64)
+	return percentofyear
+}
